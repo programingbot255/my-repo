@@ -1,0 +1,96 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 10;
+    padding: 10;
+    list-style: none;
+}
+
+/* Set a background color and font for the body */
+body {
+    
+    background-color: rgb(4, 243, 243);
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    width: 100%;
+}
+
+/* Style the main container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Style the header */
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+/* Style the showcase section */
+#showcase {
+    min-height: 400px;
+    background: url('showcase.jpg') no-repeat 0 -400px;
+    text-align: center;
+    color: #fff;
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+/* Style the main content area */
+main {
+    padding: 20px;
+    background: #fff;
+}
+
+/* Style the footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 30px;
+}
